@@ -1,0 +1,74 @@
+body {
+    background-image: url(https://images.ctfassets.net/rporu91m20dc/4iSlf7GcyAV0MftSREfZGa/78546c54f1a34557b8b44ea8ca2cd679/DOOM-Eternal_DLC1_Wallpaper_5654x2763-01.jpg);
+    font-family: tahoma;
+    font-size: 16px;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  h1 {
+    font-family: impact;
+    font-size: 36px;
+    letter-spacing: 2;
+  }
+  
+  p {
+    margin: 1em auto;
+    font-style: italic;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  hr {
+    height: 2px;
+    background-color: #5B64A0;
+    border-color: #5B64A0;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  /* Seleccion por ID */
+  
+  #submit {
+    margin-left: 10px;
+    width: 96%
+  }
+  
+  input, textarea, #dropdown {
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 0.25rem;
+  }
+  
+  #name, #email, #number, #dropdown, #submit {
+    height: 25px; 
+  }
+  
+  label, #name, #email, #number, #dropdown, #suggestions {
+    display: block;
+  }
+  
+  /* Seleccion por Clases*/
+  
+  .form {
+    width: 80%;
+    background-color: #4A528A90;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+  }
+  
+  .legend {
+    margin-bottom: 3px;
+  }
